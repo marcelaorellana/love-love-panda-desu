@@ -4,5 +4,79 @@ Verde - #ABE188;
 Rosa - #F78E69;
 font-family: 'Raleway', sans-serif;
 */
-
+ 
 /* Escribe tu código acá debajo */
+body{
+	background-color: #F78E69;
+	width: 100%;
+	margin: 0 auto;
+	font-family: 'Raleway', sans-serif;
+}
+.imgClass{
+	-webkit-filter: grayscale(1); /* Old WebKit */
+    filter: grayscale(1);
+}
+
+#foto1{
+	background: url("../img/uno.jpg");
+	background-position: center;
+	padding: 200px 0;
+	background-size: cover;
+}
+#tituloId {
+	text-align: right;
+	color: whitesmoke;
+	padding: 30px;
+}
+#tituloId h1{
+	font-size: 50px;
+	margin-bottom: 0;
+}
+.about{
+	background-color: #ABE188;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding: 20px 20px;
+}
+#aboutId{
+	background-color: #F78E69;
+	color: whitesmoke;
+	text-align: center;
+	margin: 20px 390px;
+	padding: 10px 20px;
+}
+#foto2{
+	background: url("../img/dos.jpg");
+	background-position: top;
+	padding: 340px 0;
+	background-size: cover;
+}
+.pictures{
+	background-color: #ABE188;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding: 20px 20px;
+	text-align: center;
+	color: whitesmoke;
+}
+.pictures h1{
+	font-size: 50px;	
+}
+.fotitos{
+    border: 10px solid whitesmoke;
+    border-radius: 4px;
+    margin: 20px;
+}
+#foto3{
+	background: url("../img/tres.jpg");
+	background-position: center;
+	padding: 340px 0;
+	background-size: cover;
+}
+
+footer{
+	color: whitesmoke;
+	font-weight: bold;
+	text-align: right;
+	padding-right: 20px;
+}
